@@ -14,6 +14,7 @@ export type Language = {
     smart_answer: string;
     victorian_answer: string;
     wizard_answer: string;
+    google_search: string;
 }
 
 export const LanguageMap: Record<number, keyof Language> = {
@@ -27,4 +28,5 @@ export const LanguageMap: Record<number, keyof Language> = {
     8: "wizard_answer",
     9: "dumb_answer",
     10: "smart_answer",
+    11: "google_search"
   }
